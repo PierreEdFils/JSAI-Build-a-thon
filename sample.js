@@ -6,7 +6,7 @@ import { dirname, resolve } from "path";
 
 const token = process.env["GITHUB_TOKEN"];
 const endpoint = "https://models.inference.ai.azure.com";
-const modelName = "openai/gpt-4.1"; // <-- Replace with your exact model ID here
+const modelName = "openai/gpt-4o.1"; // <-- Replace with your exact model ID here
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);

@@ -6,7 +6,7 @@ import { dirname, resolve } from "path";
 
 const token = process.env["GITHUB_TOKEN"];
 const endpoint = "https://models.inference.ai.azure.com";
-const modelName = "openai/gpt-4o.1"; // <-- Replace with your exact model ID here
+const modelName = "gpt-4o-mini"; // Use a multimodal model that supports images
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -31,7 +31,7 @@ export async function main() {
           content: [
             {
               type: "text",
-              text: "Write HTML and CSS code for a web page based on this sketch."
+              text: "Write HTML and CSS code for a web page based on the following hand-drawn sketch."
             },
             {
               type: "image_url",

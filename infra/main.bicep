@@ -59,7 +59,7 @@ module serverfarm 'br/public:avm/res/web/serverfarm:0.4.1' = {
   scope: resourceGroup
   params: {
     name: appServicePlanName
-    skuName: 'F1'
+    skuName: 'D1'
   }
 }
 

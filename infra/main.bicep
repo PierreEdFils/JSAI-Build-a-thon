@@ -74,7 +74,5 @@ module webapi 'br/public:avm/res/web/site:0.15.1' = {
   }
 }
 
-
 output STATIC_WEBAPP_URL string = webapp.outputs.defaultHostname
 output WEBAPI_URL string = webapi.outputs.defaultHostname
-

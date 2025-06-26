@@ -1,4 +1,4 @@
-param webapiName string = '<your-unique-string>' // Name of the web API, must be unique across Azure
+param webapiName string = 'jsai-dev-webapp' // Name of the web API, must be unique across Azure
 param appServicePlanName string = 'appserviceplan'
 
 targetScope = 'subscription'

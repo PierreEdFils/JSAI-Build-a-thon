@@ -1,0 +1,5 @@
+type: bing_grounding
+id: bing_search
+options:
+  tool_connections:
+    - /subscriptions/3566f43b-c14b-45b7-bea6-e1f94479ac37/resourceGroups/rg-jsai-dev/providers/Microsoft.MachineLearningServices/workspaces/epier-mcoyamzp-eastus2-project/connections/mybinggrounding

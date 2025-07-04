@@ -6,7 +6,7 @@ import { dirname, resolve } from "path";
 
 const token = process.env["GITHUB_TOKEN"];
 const endpoint = "https://models.inference.ai.azure.com";
-const modelName = "gpt-4o-mini"; // Use a multimodal model that supports images
+const modelName = "gpt-4o"; // Use a multimodal model that supports images
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
